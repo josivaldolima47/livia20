@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2? família=Saira+Condensado:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    margin: 10;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(248, 248, 248);
+    text-align: center;
+}
+
+.logo {
+    flex: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-family: 'Saira Condensado', sans-serif;
+}
+
+.logo h1 {
+    font-family: 'Saira Condensado', sans-serif;
+    color: rgb(16, 16, 48);
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: rgb(206, 35, 43);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    /* border-top: 5px solid black; */
+    color: black;
+}
+
+#botão {
+    background: black;
+    padding: 10px 25px;
+    color: rgb(0, 255, 85);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botão:hover {
+    border: none;
+    background: fuchsia;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    padding: 10;
+    margin: 10;
+}
+
+.headline {
+    text-align: center;
+    flex: 50%;
+    /* border: 1px solid rgb(12, 12, 238); */
+}
+
+.img-headline {
+    margin-right: 0%;
+    flex: 50%;
+    /* border: 1px solid rgb(202, 11, 11); */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-btn {
+    background: #FF2978;
+    padding: 20px;
+    color: #ffee00;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-btn:hover {
+    background: blue;
+}
+
+section {
+    margin-top: 88px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Noto Sans Vai', sans-serif;
+    ;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    margin: 1%;
+    /* border: 1px solid #FF2978; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid
+}
+
+.logo-radape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Kanit', sans-serif;
+    flex: 20%;
+    color: aliceblue;
+    text-align: center;
+}
